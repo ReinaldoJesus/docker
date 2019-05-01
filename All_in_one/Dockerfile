@@ -1,4 +1,4 @@
 # specify the node base image with your desired version node:<version>
-FROM node:6
+FROM node:latest
 # replace this with your application's default port
-EXPOSE 8000
+EXPOSE 80
