@@ -1,0 +1,23 @@
+Dockers 
+
+Comando de contenedores 
+
+Eliminar
+* docker rm $(docker ps -a -q -f status=exited)
+* docker container prune //Borra todo los contenedores 
+* docker rm “Aqui el Id del contenedor”
+
+Visualizar 
+* docker ps -a
+
+Detener contenedor 
+* docker stop “nombre de contenedor ”
+
+
+Comando de images
+
+Eliminar 
+* docker rmi “ID de image” 
+
+Iniciar Dockers Run
+* docker run --rm “Nombre del contender”
