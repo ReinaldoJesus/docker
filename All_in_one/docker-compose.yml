@@ -1,0 +1,13 @@
+version: "1"
+services:
+  node:
+    image: "all_in_one"
+    user: "Reinaldo"
+    working_dir: Documents/RepositorioGit/Docker/All_in_one/
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/app
+    expose:
+      - "50000"
+    command: "npm start"
