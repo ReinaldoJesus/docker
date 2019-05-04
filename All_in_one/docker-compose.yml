@@ -1,9 +1,9 @@
-version: "1"
+version: "2"
 services:
   node:
     image: "all_in_one"
     user: "Reinaldo"
-    working_dir: Documents/RepositorioGit/Docker/All_in_one/
+    working_dir: ../
     environment:
       - NODE_ENV=production
     volumes:
